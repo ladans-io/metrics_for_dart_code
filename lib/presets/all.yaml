@@ -1,0 +1,3 @@
+metrics_for_dart_code:
+  extends:
+    - package:metrics_for_dart_code_presets/all.yaml

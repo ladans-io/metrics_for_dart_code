@@ -1,0 +1,12 @@
+name: metrics_for_dart_code_plugin_loader
+description: This pubspec determines the version of the analyzer plugin to load.
+version: 5.7.4
+
+environment:
+  sdk: ">=2.14.0 <3.0.0"
+
+dependencies:
+  metrics_for_dart_code: 5.7.4
+
+dev_dependencies:
+  lints: ^1.0.1
