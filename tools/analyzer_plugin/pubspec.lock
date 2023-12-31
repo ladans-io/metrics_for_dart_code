@@ -156,9 +156,11 @@ packages:
   metrics_for_dart_code:
     dependency: "direct main"
     description:
-      path: "../.."
-      relative: true
-    source: path
+      path: "."
+      ref: HEAD
+      resolved-ref: e0974ead544c459fcc3511d2eb801321e1dcdca1
+      url: "https://github.com/ladans-io/metrics_for_dart_code"
+    source: git
     version: "1.0.0"
   metrics_for_dart_code_presets:
     dependency: transitive

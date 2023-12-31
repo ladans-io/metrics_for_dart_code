@@ -117,7 +117,7 @@
     },
     {
       "name": "metrics_for_dart_code",
-      "rootUri": "../../../",
+      "rootUri": "file:///Users/ladans.io/.pub-cache/git/metrics_for_dart_code-e0974ead544c459fcc3511d2eb801321e1dcdca1/",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -230,7 +230,7 @@
       "languageVersion": "2.14"
     }
   ],
-  "generated": "2023-12-31T10:04:23.169630Z",
+  "generated": "2023-12-31T10:17:18.652184Z",
   "generator": "pub",
   "generatorVersion": "3.1.3"
 }
