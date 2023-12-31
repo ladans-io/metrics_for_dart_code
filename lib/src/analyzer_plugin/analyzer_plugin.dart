@@ -28,13 +28,13 @@ class AnalyzerPlugin extends ServerPlugin {
 
   @override
   String get contactInfo =>
-      'https://github.com/dart-code-checker/dart-code-metrics/issues';
+      'https://github.com/ladans-io/metrics_for_dart_code/issues';
 
   @override
   List<String> get fileGlobsToAnalyze => const ['*.dart', '*.yaml'];
 
   @override
-  String get name => 'DCM $packageVersion';
+  String get name => 'MDC $packageVersion';
 
   @override
   String get version => '1.0.0-alpha.0';
@@ -43,7 +43,7 @@ class AnalyzerPlugin extends ServerPlugin {
     required super.resourceProvider,
   }) {
     final location =
-        resourceProvider.getStateLocation('.dart-code-metrics-uuid');
+        resourceProvider.getStateLocation('.metrics_for_dart_code_uuid');
     if (location == null) {
       return;
     }
