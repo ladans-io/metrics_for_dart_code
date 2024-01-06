@@ -3,21 +3,21 @@
   "packages": [
     {
       "name": "_fe_analyzer_shared",
-      "rootUri": "file:///Users/ladans.io/.pub-cache/hosted/pub.dev/_fe_analyzer_shared-60.0.0",
+      "rootUri": "file:///Users/ladans.io/.pub-cache/hosted/pub.dev/_fe_analyzer_shared-65.0.0",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "3.0"
     },
     {
       "name": "analyzer",
-      "rootUri": "file:///Users/ladans.io/.pub-cache/hosted/pub.dev/analyzer-5.12.0",
+      "rootUri": "file:///Users/ladans.io/.pub-cache/hosted/pub.dev/analyzer-6.3.0",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "3.0"
     },
     {
       "name": "analyzer_plugin",
-      "rootUri": "file:///Users/ladans.io/.pub-cache/hosted/pub.dev/analyzer_plugin-0.11.2",
+      "rootUri": "file:///Users/ladans.io/.pub-cache/hosted/pub.dev/analyzer_plugin-0.11.3",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "3.0"
     },
     {
       "name": "ansicolor",
@@ -81,9 +81,9 @@
     },
     {
       "name": "dart_style",
-      "rootUri": "file:///Users/ladans.io/.pub-cache/hosted/pub.dev/dart_style-2.3.2",
+      "rootUri": "file:///Users/ladans.io/.pub-cache/hosted/pub.dev/dart_style-2.3.4",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "3.0"
     },
     {
       "name": "file",
@@ -219,9 +219,9 @@
     },
     {
       "name": "platform",
-      "rootUri": "file:///Users/ladans.io/.pub-cache/hosted/pub.dev/platform-3.1.3",
+      "rootUri": "file:///Users/ladans.io/.pub-cache/hosted/pub.dev/platform-3.1.4",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "3.0"
     },
     {
       "name": "pool",
@@ -386,7 +386,7 @@
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2023-12-31T16:29:42.205051Z",
+  "generated": "2024-01-06T09:38:42.262874Z",
   "generator": "pub",
   "generatorVersion": "3.1.3"
 }
