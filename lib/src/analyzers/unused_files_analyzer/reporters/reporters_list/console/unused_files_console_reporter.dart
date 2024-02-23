@@ -38,7 +38,7 @@ class UnusedFilesConsoleReporter
         : '${alarmPen('✖')} total unused files - $filesCount';
 
     output
-      ..writeln('')
+      ..writeln()
       ..writeln(outputRecord);
   }
 }

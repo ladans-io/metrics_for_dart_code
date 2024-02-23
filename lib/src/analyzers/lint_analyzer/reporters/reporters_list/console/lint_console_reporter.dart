@@ -42,7 +42,7 @@ class LintConsoleReporter
       if (lines.isNotEmpty) {
         output.writeln('${file.relativePath}:');
         lines.forEach(output.writeln);
-        output.writeln('');
+        output.writeln();
       }
 
       hasReportData |= lines.isNotEmpty;

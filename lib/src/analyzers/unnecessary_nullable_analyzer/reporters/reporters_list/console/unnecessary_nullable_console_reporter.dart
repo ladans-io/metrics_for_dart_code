@@ -49,7 +49,7 @@ class UnnecessaryNullableConsoleReporter extends ConsoleReporter<
 
       warnings += analysisRecord.issues.length;
 
-      output.writeln('');
+      output.writeln();
     }
 
     output.writeln(

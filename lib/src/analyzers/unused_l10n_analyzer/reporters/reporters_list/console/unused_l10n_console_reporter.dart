@@ -45,7 +45,7 @@ class UnusedL10nConsoleReporter
 
       warnings += analysisRecord.issues.length;
 
-      output.writeln('');
+      output.writeln();
     }
 
     output.writeln(

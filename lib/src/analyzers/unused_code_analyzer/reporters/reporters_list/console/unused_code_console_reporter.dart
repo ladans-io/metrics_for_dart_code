@@ -47,7 +47,7 @@ class UnusedCodeConsoleReporter
 
       warnings += analysisRecord.issues.length;
 
-      output.writeln('');
+      output.writeln();
     }
 
     output.writeln(

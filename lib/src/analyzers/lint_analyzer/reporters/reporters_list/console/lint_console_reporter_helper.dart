@@ -10,7 +10,7 @@ final _warningPen = AnsiPen()..rgb(r: 0.98, g: 0.68, b: 0.4);
 final _bluePen = AnsiPen()..rgb(r: 0.08, g: 0.11, b: 0.81);
 final _whitePen = AnsiPen()..white();
 
-final _linkPen = AnsiPen()..rgb(r: 0.0, g: 0.78, b: 1.0);
+final _linkPen = AnsiPen()..rgb(r: 0.0, g: 0.78);
 
 /// Helper for building lint console reports.
 class LintConsoleReporterHelper {

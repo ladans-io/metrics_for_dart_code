@@ -1,5 +1,6 @@
 // ignore_for_file: public_member_api_docs
 
+import 'dart:developer';
 import 'dart:io';
 
 import '../../analyzers/lint_analyzer/lint_analyzer.dart';
@@ -149,7 +150,6 @@ class AnalyzeCommand extends BaseCommand {
         FlagNames.jsonReportPath,
         help: 'Path to the JSON file with the output of the analysis.',
         valueHelp: 'path/to/file.json',
-        defaultsTo: null,
       );
   }
 
@@ -163,7 +163,7 @@ class AnalyzeCommand extends BaseCommand {
         valueHelp: '${metric.documentation.recommendedThreshold}',
         callback: (i) {
           if (i != null && int.tryParse(i) == null) {
-            print(
+            log(
               "'$i' invalid value for argument ${metric.documentation.name}",
             );
           }

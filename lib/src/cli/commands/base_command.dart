@@ -136,7 +136,6 @@ abstract class BaseCommand extends Command<void> {
         FlagNames.noCongratulate,
         help: "Don't show output even when there are no issues.",
         negatable: false,
-        defaultsTo: false,
       );
   }
 
@@ -146,7 +145,6 @@ abstract class BaseCommand extends Command<void> {
       ..addFlag(
         FlagNames.verbose,
         help: 'Show verbose logs.',
-        defaultsTo: false,
       );
   }
 
