@@ -177,9 +177,9 @@
     },
     {
       "name": "metrics_for_dart_code_presets",
-      "rootUri": "file:///Users/ladans.io/.pub-cache/git/metrics_for_dart_code_presets-bed98649771292fe42c06e0db1695fc8bcc4716d/",
+      "rootUri": "file:///Users/ladans.io/.pub-cache/git/metrics_for_dart_code_presets-c3a89ffcb2033deb1908adb930a719f4e8aecb61/",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.3"
     },
     {
       "name": "mime",
@@ -389,10 +389,10 @@
       "name": "metrics_for_dart_code",
       "rootUri": "../",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.3"
     }
   ],
-  "generated": "2024-02-23T22:21:35.717396Z",
+  "generated": "2024-02-23T22:31:16.854265Z",
   "generator": "pub",
   "generatorVersion": "3.3.0"
 }
